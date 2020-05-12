@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    tools:context=".view.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgApp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/blanco"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/business_and_finance" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgApp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="66dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/app_name"
+            android:textColor="@color/negro"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:layout_below="@+id/txtTitle"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/negro"
+            android:textSize="15dp"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:id="@+id/linear_layout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/txt_descripcion"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Presentado por:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Juan Jose Restrepo Valencia"
+                android:textColor="@color/fav_juan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Santiago Toro"
+                android:textColor="@color/fav_santiago"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="* Luis Eduardo Solano López"
+                android:textColor="@color/fav_luis"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:background="@drawable/background_bnt"
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blanco"
+            android:text="Iniciar"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

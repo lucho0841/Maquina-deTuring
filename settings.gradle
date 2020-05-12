@@ -1,0 +1,2 @@
+rootProject.name='Maquina deTuring'
+include ':app'

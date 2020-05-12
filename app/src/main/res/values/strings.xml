@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Máquina de Turing</string>
+    <string name="descripcion">Bienvenido a la simulación de máquina de turing #1, esta máquina se encarga de analizar cadenas con un caracter de "0" en potencias de 2, es decir, solo valida 2^n en tamaño de la cadena</string>
+</resources>

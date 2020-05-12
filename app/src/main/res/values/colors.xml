@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="blanco">#ffffff</color>
+    <color name="negro">#000000</color>
+    <color name="purple">#673AB6</color>
+    <color name="gray">#757575</color>
+    <color name="fav_juan">#B11414</color>
+    <color name="fav_luis">#34811B</color>
+    <color name="fav_santiago">#B3A927</color>
+</resources>

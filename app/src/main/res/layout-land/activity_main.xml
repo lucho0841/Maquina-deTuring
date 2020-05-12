@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="horizontal"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/blanco"
+            android:src="@drawable/business_and_finance" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/app_name"
+            android:textColor="@color/negro"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Presentado por:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Juan Jose Restrepo Valencia"
+            android:textColor="@color/fav_juan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Santiago Toro"
+            android:textColor="@color/fav_santiago"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* Luis Eduardo Solano López"
+            android:textColor="@color/fav_luis"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/descripcion"
+            android:textColor="@color/negro"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/btnIniciar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_bnt"
+            android:text="Iniciar"
+            android:textColor="@color/blanco" />
+    </LinearLayout>
+
+</LinearLayout>
